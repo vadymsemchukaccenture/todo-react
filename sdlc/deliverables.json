@@ -1,0 +1,10 @@
+{
+  "deliverables": [
+    {
+      "path": "src/App.jsx",
+      "type": "MODIFY",
+      "description": "Replace the visible main heading text TodoMatic with My Tasks while preserving the existing heading, styling, layout, and behavior.",
+      "agent": "Coder"
+    }
+  ]
+}
