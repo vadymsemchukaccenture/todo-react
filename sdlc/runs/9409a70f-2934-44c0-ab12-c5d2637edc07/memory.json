@@ -1,6 +1,7 @@
 {
   "injected": {
-    "coder:0": []
+    "coder:0": [],
+    "tester:0": []
   },
   "slot": "recurring_rejection_patterns"
 }
