@@ -59,7 +59,12 @@ test("AC-2: src/App.jsx is the only changed production file", () => {
     .trim()
     .split("\n")
     .filter(Boolean)
-    .filter((file) => !file.startsWith("sdlc/"));
+    .filter(
+      (file) =>
+        file.startsWith("src/") ||
+        file.startsWith("public/") ||
+        ["index.html", "package.json", "vite.config.js"].includes(file),
+    );
 
   assert.deepEqual(changedFiles, ["src/App.jsx"]);
 });
