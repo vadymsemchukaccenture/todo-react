@@ -1,0 +1,8 @@
+{
+  "status": {
+    "sast": "ran",
+    "dependency_audit": "not configured",
+    "licence_check": "ran (npm)"
+  },
+  "findings": []
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "criterion": "AC-1",
+    "text": "Given the application is displaying its main title as \"Todo\", When the application is opened after the change, Then the main title reads exactly \"My Tasks\".",
+    "probes": [],
+    "tests": [
+      "app/tests/App.copy-only.test.mjs",
+      "app/tests/App.runtime.test.mjs"
+    ],
+    "status": "test-linked"
+  },
+  {
+    "criterion": "AC-2",
+    "text": "Given the application before this change, When the title is updated, Then all UI and functionality outside the title remain unchanged.",
+    "probes": [],
+    "tests": [
+      "app/tests/App.copy-only.test.mjs",
+      "app/tests/App.runtime.test.mjs"
+    ],
+    "status": "test-linked"
+  }
+]
